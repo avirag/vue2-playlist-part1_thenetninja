@@ -22,6 +22,15 @@ new Vue({
     updateXY: function(event) {
       this.x = event.offsetX;
       this.y = event.offsetY;
+    },
+    click: function() {
+      alert('You clicked me!');
+    },
+    logName: function() {
+      console.log('you entered your name');
+    },
+    logAge: function() {
+      console.log('you entered your age');
     }
   }
 });
